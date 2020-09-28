@@ -1,0 +1,97 @@
+body {
+    /* background-color:rgb(255, 196, 144); */
+    background-color: silver;
+}
+
+div.header {
+    background-image: url(HEADER1.jpg);
+    background-size: 100%;
+    height: 250px;
+    width: 100%;
+}
+
+div.y {
+    padding: 200px;
+    background-color: black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+/* position: fixed;
+    z-index: 0;   */
+
+
+/* opacity: 0.9; */
+
+div.a:hover {
+    transition: 1s;
+    zoom: 1;
+}
+
+ul {
+    list-style-type: none;
+    display: inline-flex;
+}
+
+ul li {
+    font-size: 25px;
+    margin: 25px;
+    color: white;
+    padding: 3px;
+}
+
+ul li.a:hover {
+    background-color: transparent;
+    cursor: pointer;
+    zoom: 1;
+    transition: 0.4s;
+    border: 3px white solid;
+    padding: 5px;
+    float: left;
+}
+
+table {
+    /* background-color: darkgray; */
+    padding: 50px;
+    margin: 10px;
+}
+
+td {
+    padding: 500px;
+    margin: 25px solid white;
+}
+
+td.a:hover {
+    background-color: sandybrown;
+    cursor: pointer;
+}
+
+.a:hover {
+    background-color: sandybrown;
+    cursor: pointer;
+    transition: 1.5s;
+}
+
+div.b {
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    z-index: -1;
+    background-color: sandybrown;
+}
+
+.footer {
+    padding: 75PX;
+    background-color: black;
+}
+
+li>a {
+    text-decoration: none;
+    color: white;
+}
+
+li>a:hover {
+    text-decoration: none;
+    color: white;
+}

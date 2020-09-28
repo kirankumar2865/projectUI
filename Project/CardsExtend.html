@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="cardsExtended.css">
+    <link rel="stylesheet" type="text/css" href="footer.css">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+    <link href="http://fonts.googleapis.com/css?family=Cookie" rel="stylesheet" type="text/css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300i,400" rel="stylesheet">
+    <link rel="stylesheet" href="cardsatck.css" type="text/css">
+
+
+    <script>
+        function message() {
+            var inputName, inputPhone, inputEmail;
+            inputName = document.getElementById("name").value;
+            inputPhone = document.getElementById("phone").value;
+            inputEmail = document.getElementById("email").value;
+            if (inputName.length == 0 || inputEmail.length == 0 || inputPhone.length == 0) {
+                alert("Please fill the details correctly");
+            } else
+                alert("Thank you for the feedback");
+
+        }
+    </script>
+
+</head>
+
+<body>
+    <header>
+        <div style="display:inline-flex;width: 100%; border-bottom: 1px solid greenyellow;">
+            <a href="#"><img src="logo.png" width="200px"></a>
+            <h1 style="margin-top: 3%; margin-left: 20%;"><span style="background-color:chartreuse;color: black;">Will Travel</span><span style="color: whitesmoke;background-color: black;">For Food</span></h1>
+            <div>
+                <ul style="list-style-type: none;text-decoration: none;">
+                    <li class="btn" style="border: 1px solid white;"><a href="Ex.html">Home</a></li>
+                    <li class="btn" style="border: 1px solid white;"><a href="travel.html">Travel</a></li>
+                    <li class="btn" style="border: 1px solid white;"><a href="hotel.html">Hotel</a></li>
+                    <li class="btn" style="border: 1px solid white;"><a href="#">Food</a></li>
+                </ul>
+            </div>
+
+        </div>
+
+    </header>
+
+    <div class="container" style="margin-bottom: 20px;">
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="item active" style="font-weight: 600; font-family:  'Lucida Grande';font-size: 30px;padding: 20px;color: black;background-image: url(https://png.pngtree.com/thumb_back/fh260/back_pic/03/80/37/2757c3ea05d908b.jpg);background-size: 100% 100%;">
+                    Think of the many times you’ve travelled or gone on vacation. You’ll notice that your food experience has had an impact on your overall travel experience. Many people have made their destination choices based on food interests. The food countries on the
+                    list we’ve compiled below are examples of such destinations. They have the most sumptuous, and delicious cuisines on the planet.
+                </div>
+
+                <div class="item" style="font-weight: 600; font-family:  'Lucida Grande';font-size: 30px;padding: 20px;color: black;background-image: url(https://png.pngtree.com/thumb_back/fh260/back_our/20190620/ourmid/pngtree-minimalistic-green-vegetable-salad-background-image_159258.jpg);background-size: 100% 100%;">
+                    There are food guides for different countries because every region has its signature dish. Our foods like lifestyle are affected by our traditions and culture. We’ve identified 15 “food countries” with tantalizing cuisines. We refer to them as food countries
+                    because they have made their mark as the best with amazing dishes. Here’s a list of our 15 best countries for food in the world:
+                </div>
+            </div>
+            <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="card-column column-0">
+            <div class="card card-color-0">
+                <div class="border"></div>
+                <img src="https://www.aworldtotravel.com/wp-content/uploads/2018/10/pizza-italian-food-best-countries-for-food-around-the-world-a-world-to-travel.jpg" />
+                <h1>Italy</h1>
+            </div>
+            <div class="card card-color-2">
+                <div class="border"></div>
+                <img src="https://www.aworldtotravel.com/wp-content/uploads/2018/10/paella-spanish-food-best-countries-for-food-around-the-world-a-world-to-travel.jpg" />
+                <h1>Spain</h1>
+            </div>
+        </div>
+
+        <div class="card-column column-1">
+            <div class="card card-color-1">
+                <div class="border"></div>
+                <img src="https://www.aworldtotravel.com/wp-content/uploads/2018/10/mexican-food-best-countries-for-food-around-the-world-a-world-to-travel.jpg" />
+                <h1>Mexico</h1>
+            </div>
+            <div class="card card-color-3">
+                <div class="border"></div>
+                <img src="https://www.aworldtotravel.com/wp-content/uploads/2018/10/indian-food-best-countries-for-food-around-the-world-a-world-to-travel.jpg" />
+                <h1>India</h1>
+            </div>
+        </div>
+
+        <div class="card-column column-0">
+            <div class="card card-color-4">
+                <div class="border"></div>
+                <img src="https://www.aworldtotravel.com/wp-content/uploads/2018/10/olive-oil-greek-food-best-countries-for-food-around-the-world-a-world-to-travel.jpg" />
+                <h1>Greece</h1>
+            </div>
+            <div class="card card-color-5">
+                <div class="border"></div>
+                <img src="https://www.aworldtotravel.com/wp-content/uploads/2018/10/chinese-food-best-countries-for-food-around-the-world-a-world-to-travel.jpg" />
+                <h1>China</h1>
+            </div>
+        </div>
+
+        <div class="card-column column-1">
+            <div class="card card-color-6">
+                <div class="border"></div>
+                <img src="https://www.aworldtotravel.com/wp-content/uploads/2018/10/sushi-japanese-cuisine-best-countries-for-food-around-the-world-a-world-to-travel.jpg" />
+                <h1>Japan</h1>
+            </div>
+            <div class="card card-color-7">
+                <div class="border"></div>
+                <img src="https://www.aworldtotravel.com/wp-content/uploads/2018/10/macaroons-french-cuisine-best-countries-for-food-around-the-world-a-world-to-travel.jpg" />
+                <h1>France</h1>
+            </div>
+        </div>
+
+
+        <div class="card-column column-0">
+            <div class="card card-color-8">
+                <div class="border"></div>
+                <img src="https://www.aworldtotravel.com/wp-content/uploads/2018/10/south-african-food-best-countries-for-food-around-the-world-a-world-to-travel.jpg" />
+                <h1>South Africa</h1>
+            </div>
+            <div class="card card-color-9">
+                <div class="border"></div>
+                <img src="https://www.aworldtotravel.com/wp-content/uploads/2018/10/thai-food-best-countries-for-food-around-the-world-a-world-to-travel.jpg" />
+                <h1>Thailand</h1>
+            </div>
+        </div>
+
+        <div class="card-column column-1">
+            <div class="card card-color-10">
+                <div class="border"></div>
+                <img src="https://www.aworldtotravel.com/wp-content/uploads/2018/10/usa-food-best-countries-for-food-around-the-world-a-world-to-travel.jpg" />
+                <h1>United States Of America</h1>
+            </div>
+            <div class="card card-color-11">
+                <div class="border"></div>
+                <img src="https://www.aworldtotravel.com/wp-content/uploads/2018/10/food-truck-hawaiian-food-best-countries-for-food-around-the-world-a-world-to-travel.jpg" />
+                <h1>Hawaii</h1>
+            </div>
+        </div>
+    </div>
+
+    <div id="cover" class="cover"></div>
+
+    <div id="open-content" class="open-content">
+        <a href="#" id="close-content" class="close-content"><span class="x-1"></span><span class="x-2"></span></a>
+        <img id="open-content-image" src="" />
+        <div class="text" id="open-content-text">
+        </div>
+    </div>
+
+    <div style="display: inline;">
+        <table>
+            <tr>
+                <td>
+                    <div style="padding-left: 4%;">
+                        <video width="500" controls>
+                            <source src="cuisines.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                          </video>
+                    </div>
+                </td>
+                <td>
+                    <div class="dashwidth" style="padding-left: 18%;">
+                        <h3 style="color: white;background-color: black;" class="dashboard">TRENDING</h3>
+                        <ol style="border: 2px solid black;background-color: cornsilk;">
+                            <li class="li">
+                                <h4>2020 Best Foods in Town</h4>
+                                <h5>As the year evolves , So does the food</h5>
+                            </li>
+                            <li class="li">
+                                <h4>New Year New Destinations</h4>
+                                <h5>Exclusive deals only on Ask Anything...</h5>
+                            </li>
+                            <li class="li">
+                                <h4>Only see possible</h4>
+                                <h5>Connecting human insights with nature for impact</h5>
+                            </li>
+                            <li class="li">
+                                <h4>2019 Global inn Consumer Study</h4>
+                                <h5>Consumer trends in the hotel industry</h5>
+                            </li>
+                            <li class="li">
+                                <h4>2020 Food and Hotel Industry Outlook</h4>
+                                <h5>Exploring Food and Hotel trends</h5>
+                            </li>
+                        </ol>
+                    </div>
+                </td>
+            </tr>
+        </table>
+    </div>
+
+    <div style="display: inline-flex;border: 1px solid black;">
+        <div class="container1">
+
+            <div class="card1">
+                <h3 class="title">Name</h3>
+                <div class="bar">
+                    <div class="emptybar"><input type="text" name="name" id="name" placeholder="Enter here"></div>
+                    <div class="filledbar"></div>
+                </div>
+                <div class="circle">
+                    <svg version="1.1" xmlns="http://www.w3.org/2000/svg">
+<circle class="stroke" cx="60" cy="60" r="50"/>
+</svg>
+                </div>
+            </div>
+            <div class="card1">
+                <h3 class="title">Phone Number</h3>
+                <div class="bar">
+                    <div class="emptybar"><input type="text" name="phone" id="phone" placeholder="Enter here"></div>
+                    <div class="filledbar"></div>
+                </div>
+                <div class="circle">
+                    <svg version="1.1" xmlns="http://www.w3.org/2000/svg">
+<circle class="stroke" cx="60" cy="60" r="50"/>
+</svg>
+                </div>
+            </div>
+            <div class="card1">
+                <h3 class="title">Email</h3>
+                <div class="bar">
+                    <div class="emptybar"><input type="text" name="email" id="email" placeholder="Enter here"></div>
+                    <div class="filledbar"></div>
+                </div>
+                <div class="circle">
+                    <svg version="1.1" xmlns="http://www.w3.org/2000/svg">
+<circle class="stroke" cx="60" cy="60" r="50"/>
+</svg>
+                </div>
+            </div>
+            <div class="card1">
+                <h3 class="title">Message</h3>
+                <div class="bar">
+                    <div class="emptybar"><textarea rows="1" cols="20" placeholder="Enter Message Here" style="border-radius: 5px;"></textarea>
+                        <button type="button" name="submit" style="padding: 5px;margin-top: 5px;border-radius: 5px;" onclick="message()">Submit</button>
+                    </div>
+                    <div class="filledbar"></div>
+                </div>
+                <div class="circle">
+                    <svg version="1.1" xmlns="http://www.w3.org/2000/svg">
+<circle class="stroke" cx="60" cy="60" r="50"/>
+</svg>
+                </div>
+            </div>
+            <h3 style="font-weight: bolder;">Contact</h3><br>
+        </div>
+        <div id="cutout">
+            <div class="wrapper">
+                <div class="card2">
+                    <h1 class="h">
+                        <span class="enclosed">Ask</span>-A
+                    </h1>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer-distributed">
+
+        <div class="footer-left">
+            <img src="logo.png">
+            <h3>Ask<span>Anything</span></h3>
+
+            <p class="footer-links">
+                <a href="#">Home</a> |
+                <a href="#">Privacy policy</a> |
+                <a href="#">About</a> |
+                <a href="#">Contact</a>
+            </p>
+
+            <p class="footer-company-name">© 2020 Ask Anything Pvt. Ltd.</p>
+        </div>
+
+        <div class="footer-center">
+            <div>
+                <i class="fa fa-map-marker"></i>
+                <p><span>Meenakshi Towers,
+                     Block G & H</span>Gachibowli, Hyderabad - 500032</p>
+            </div>
+
+            <div>
+                <i class="fa fa-phone"></i>
+                <p>+91 9123456789</p>
+            </div>
+            <div>
+                <i class="fa fa-envelope"></i>
+                <p><a href="mailto:support@eduonix.com">support@askanything.com</a></p>
+            </div>
+        </div>
+        <div class="footer-right">
+            <p class="footer-company-about">
+                <span>About the company</span> We offer best Travelling stay and food suggestions all overthe world.</p>
+            <div class="footer-icons">
+                <a href="#"><i class="fa fa-facebook"></i></a>
+                <a href="#"><i class="fa fa-twitter"></i></a>
+                <a href="#"><i class="fa fa-instagram"></i></a>
+                <a href="#"><i class="fa fa-linkedin"></i></a>
+                <a href="#"><i class="fa fa-youtube"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="CardsExtend.js"></script>
+</body>
+
+</html>
